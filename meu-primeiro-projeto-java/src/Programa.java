@@ -62,5 +62,8 @@ public class Programa {
             "Recado: Vish... só lamento!! Pelo menos vai fazer companhia para nós por mais um ano kkkkkkkkk%n",
             nomeAluno, mediaFinal, status);
         }
+
+        leitor.close();
+        System.exit(0);
     }
 }
